@@ -1,0 +1,118 @@
+if statement
+ synatx
+if(condition)//true
+{
+//statement
+}
+condition check=><=,>=,<,>,==
+more than one conidition check=>use logical operator(&&,||,!)
+
+ conition true executes
+if-else statement
+else if
+syntax
+returntype functionname(){
+int a=1;
+return a;}
+
+
+if else
+statement true=>if
+statement false=>else
+syntax:
+if(condition)//true
+{
+//statement
+}
+else{
+//stament}
+
+else if
+syntax
+if(condition1)//true{
+//statement}
+else if(condition2)//true
+{//statement}
+else{
+//statement}
+
+greatest two nuumber
+input 
+a,b a=10 b=12
+o/p:
+b is greater
+greatest three nuumber
+input 
+a,b,c a=14 b=12c=10
+o/p:
+c is greater
+if(a>b && a>c)
+printf("a is greater");
+else if(b>c){
+printf("b is greater");
+else{
+printf("c is greater");
+
+(condition)?operand1(true):operand2(false);
+greater two number
+(a>b)?printf("a is greater"):printf("b is greater");
+write c program to perform ternary operator for greatest three number.
+
+nested if
+synatx:
+if(condition)//true{
+if(condition)//true{
+
+//statement}
+else//false
+{//statement
+}
+
+write c program to perform number is positve or neagative
+
+
+switch(variable)
+{
+case variable1://statement
+                break;
+case variable2://statement
+               break;
+ :::
+
+
+default: //statement
+         break;
+
+}variable=>int,char,short int
+
+long int  ,short int
+
+
+i/p:+,-,*,/,%
+a=3 
+b=4
++
+7
+2.
+a=7 
+b=3
+-
+4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

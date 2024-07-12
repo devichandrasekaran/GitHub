@@ -1,0 +1,66 @@
+parts of function
+1.function declaration=>return type ,functionname,type and 
+no of  parameter
+it is write above main function
+synatx
+returntype functioname(args);
+2.function call
+it is statement that instruct compiler to execute function
+syntax:
+functionname(args)
+3.function definition=>
+function declaration with statement 
+returntype functionnamee(args){
+//staments
+}
+
+
+
+i/p
+
+2
+3
+o/p
+5
+i/p
+3 4
+7
+45
+9
+
+
+
+
+
+
+four types agrs paasing and return type 
+
+
+1.return type with args
+2.return type without args
+3.without return type with args
+4.without return type without args
+
+
+
+perform multiplication using four type of function types args passing and return type
+2.write c program to calculate no of digits using user defined 
+function
+ip
+123
+o/p:3
+i/p:3456
+o/p:4
+3.
+reverse the digits
+write c prg to perform multiply of digits using user defined function
+i/p
+123
+o/p
+6
+i/p
+230
+o/p0
+i/p
+34
+o/p12

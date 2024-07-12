@@ -1,0 +1,63 @@
+integer=>int>2or 4>%d=>format specifier
+float=>float >4 %f
+double=>%lf
+long=>%ld
+char=>%c 1 byte
+operands
+1.unary++,--=>one operand one operator a++
+2.binary=.+,-=>two operand one operator
+3.ternary=>three operands two operator a?b:c;
+%=>remainder 
+/=>quotient
+logical
+1.logic and=>&&=  T T T
+                  T F F
+                  F F F
+                  F T F
+logic or=> ||=>   T T T
+                  F T T
+                  T F T
+                  F F F
+logic not ! =>!T=>F
+              !F=>T
+
+
+bitwise exor^=> T T F
+                T F T
+                F T T
+                F F F
+left shift <<
+ 10
+
+    32 16 8 4 2 1
+
+
+  1010<<1=>1 _0 _1 _0 _0=>10100=>20
+
+right shift >>
+10>>1 >1010> _0 _1 _0 _1 0=> 0101=>5
+++a=>
+a=5;
+ b=a--;b=--a;
+printf(b,a);// 5 6  b=5 a=4 b=4 a=4
+
+
+#include<stdio.h>
+int main(){
+//void main(){
+int v;
+scanf("%d",&v);
+printf("%d",v);
+}
+
+
+
+
+
+
+
+
+
+
+
+

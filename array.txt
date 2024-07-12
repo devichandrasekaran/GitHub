@@ -1,0 +1,119 @@
+Array
+int a=10;
+int a=10,20,30;
+
+IT IS A FIXED SIZE COLLECTION OFSIMILAR DATA ITEMS STORED IN CONTINUOUS 
+MEMORY LOCATION.
+array starts at 0th position
+
+SYNATX FOR DECLARATION:
+DATATYPE ARRAYNAME[SIZE];
+ 
+int  arr[10];//arr[0] arr[1] arr[2],arr[3],arr[4],arr[5] arr[6] arr[7]arr[8]arr[9]
+float
+double
+char
+long
+
+
+3,1,4,7,2
+o/p:
+1,2,3,4,7
+
+
+
+
+7 2 10 5 9
+a[0]=7
+a[1]=2
+a[2]=10
+a[3]=5
+a[4]=9
+
+7 2 10 5 9
+a[0]7>2 
+2 7 10 5 9
+2>10
+2 7 10 5 9
+2>5
+2 7 10 5 9
+2>9
+2 7 10 5 9
+a[1]=7
+7>10
+2 7 10 5 9
+7>5
+2 5 10 7 9
+5>9
+2 5 10 7 9
+a[2]=10
+10>7
+2 5 7 10 9
+7>9
+2 5 7 10 9
+a[3]=10
+10>9
+2 5 7 9 10
+for(int i=0;i<size;i++){
+
+for(int j=i;j<size;j++){
+
+if(a[j]>a[j+1])
+int t=a[j];
+a[j]=a[j+1];
+a[j+1]=t;}
+}
+}
+
+
+
+
+a=1
+b=2
+a=2
+b=1
+
+
+
+
+write c program to swap two number without temp variable
+writec prg to sort array in descending order
+
+2-d array
+ rows & column 
+syntax:
+datatype arrayname[row][column];
+eg:
+int a[2][2]'
+
+
+#include<stdio.h>
+int main(){
+    //array initialzation
+    int row,column;
+    scanf("%d %d",&row,&column);//5
+    int a[row][column];//a[5]
+    for(int i=0;i<row;i++){
+        for(int j=0;j<column;j++)
+      scanf("%d",&a[i][j]);//7 2 10 5 9
+                       
+}
+    
+ for(int i=0;i<row;i++){
+        for(int j=0;j<column;j++)
+      printf("%d",a[i][j]);//7 2 10 5 9
+                       
+}
+}
+
+
+
+
+recursive function
+
+
+
+
+
+
+
